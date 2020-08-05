@@ -1,0 +1,31 @@
+.welcome{
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	/*position: relative;*/
+
+}
+.navigationGroup{
+	height: auto;
+	margin-left: 20%;
+	margin-right: 20%;
+	/*background-color: #FB4887;*/
+}
+.viewLink{
+	text-decoration: none;
+	color: black;
+}
+.viewLink:hover{
+	text-decoration: none;
+}
+.view{
+	background-color: #EAECFC; 
+	margin: 10px 5px;
+	/*width: 200px;*/
+	height: 100px;
+	text-align: center;
+	line-height: 100px
+}
+.view:hover{
+	background-color: #E5E7F7;
+}

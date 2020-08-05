@@ -1,0 +1,142 @@
+
+#cart{
+	display: none;
+}
+.cartItem{
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+}
+.cartItemName{
+	display: inline;
+}
+.cartItemTotal{
+	position: absolute;
+	display: inline;
+	left: 70%;
+}
+#addToCart{
+	display: none;
+}
+#cartQuantity{
+	background-color: #FDA3C3;
+	width: 500px;
+	padding: 20px 20px;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translateY(-50%);
+}
+.pinkContainer{
+	background-color: #FDA3C3;
+	width: 500px;
+	padding: 20px 20px;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translateY(-50%);
+}
+.purpleButton{
+	background-color: #EAECFC;
+	border: none;
+	padding: 10px 25px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.container1{
+	height: auto;
+	width: 80%;
+	top: 0;
+	bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+	/*border: solid black;*/
+}
+.container2{
+	display: inline-block;
+	/*margin-top: 20px;*/
+	margin: 20px 15px;
+	height: auto;
+	width: 300px;
+	padding: 10px 10px;
+	padding-bottom: 10px;
+	background-color: #EAECFC; 
+	/*border: solid black;*/
+}
+.container3{
+	height: 100px;
+	width: 100%;
+	/*position: relative;*/
+	align-items: center;
+  	display: flex;
+  	justify-content: center;
+	/*background-color: red;*/
+}
+.chocolateImage{
+	width: 280px;
+	height: 200px;
+	margin: 0;
+}
+.title1{
+	flex-direction: column;
+	margin-top: 0;
+	padding: 0;
+	color: black;
+	text-align: center;
+}
+.title2{
+	text-align: center;
+	color: black;
+}
+.orderLink{
+	background-color: #FB4887;
+	color: white;
+	border: none;
+	padding: 10px 25px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.orderLink:hover{
+	text-decoration: none;
+}
+.alterButton{
+	background-color: #EAECFC;
+	color: #FB4887;;
+	border: none;
+}
+.newButton{
+	background-color: #FB4887;
+	color: white;
+	border: none;
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+}
+.alter{
+	display: none;
+}
+input{
+	height: 40px;
+	border-radius: 10px;
+	border: 0.5px solid black;
+}
+table{
+	width: 100%;
+	margin-top: 20px;
+
+}
+.tableHeading{
+	background-color: #FB4887;
+	color: white; 
+	height: 30px;
+}
+tr:nth-child(even){
+	background-color: #EAECFC;
+	/*color: white;*/
+}
+a{
+	color: #FB4887;
+}

@@ -1,0 +1,55 @@
+body{
+	background-color: white;
+}
+.form{
+	margin: 30px 20px;
+	/*background-color: red;*/
+}
+.alterButton{
+	/*background-color: rgb(250, 18, 99);*/
+	background-color: #FB4887;
+	color: white;
+	border: none;
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+}
+input{
+	/*position: absolute;
+	left: 200px;*/
+	height: 45px;
+	width: 200px;
+	border-radius: 10px;
+	border: 0.5px solid black;
+}
+select{
+	height: 45px;
+	width: 200px;
+	border-radius: 10px;
+	border: 0.5px solid black;
+}
+.align{
+	margin: 10px 10px;
+}
+h1{
+	text-align: center;
+}
+.error{
+	background-color: rgb(255,0,0,0.3);
+	/*position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;*/
+	/*margin: auto;*/
+	width: 20%;
+	height: auto;
+	padding: 15px 15px;
+}
+.success{
+	background-color: rgb(0,255,0,0.3);
+	width: 20%;
+	height: auto;
+	padding: 15px 15px;
+}
+
